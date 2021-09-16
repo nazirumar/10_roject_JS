@@ -11,7 +11,6 @@ body{
    margin: 0;
    justify-content: center;
    align-items: center;
-   text-align: center;
    display:flex;
    min-height: 100vh;
 }
@@ -26,4 +25,23 @@ body{
 }
 .quez-header{
     padding: 2rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+button{
+    background-color:blue;
+    display: block;
+    width:100%;
+    border:none;
+    color:white;
+    padding:1rem;
+}
+button :hover{
+    background: color #737373;
+}
+
+h2{
+    margin:0;
 }

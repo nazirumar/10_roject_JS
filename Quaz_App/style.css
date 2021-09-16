@@ -39,7 +39,7 @@ button{
     padding:1rem;
 }
 button :hover{
-    background: color #737373;
+    background-color: aqua;
 }
 
 h2{

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Serif&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Merriweather', Serif;
+   margin: 0;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   display:flex;
+   min-height: 100vh;
+}
+
+.quez-container{
+    width: 400px; 
+    border-radius: 10px;
+   background-color: bisque;
+   box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+
+    
+}
+.quez-header{
+    padding: 2rem;
+}

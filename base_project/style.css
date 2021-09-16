@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Serif&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merriweather', Serif;
+    background-image: url('./images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.h1{
+    font-size: 5rem;
+    font-weight: normal;
+    margin-top: 5rem;
+}
+.countdown-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 1rem;
+}
+
+
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span {
+  font-size: 1.5rem;
+   
+}

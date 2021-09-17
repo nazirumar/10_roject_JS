@@ -1,10 +1,10 @@
 const quezData = [
     {
         question: ' How old are you',
-        a_1: '10',
-        1_2: '17',
-        a_3:'20',
-        a_4:'200',
+        a: '10',
+        b: '17',
+        c:'20',
+        d:'200',
         correct: 'c'
     },
 {
@@ -40,4 +40,71 @@ const quezData = [
     correct: 'd'
 }
 
-]
+];
+const quiz  = document.getElementById('quiz');
+const answerEls = document.querySelectorAll('.answer');
+const questionEl = document.getElementById('question')
+
+const a_text = document.getElementById('a_text')
+const b_text = document.getElementById('b_text')
+const c_text = document.getElementById('c_text')
+const d_text = document.getElementById('d_text')
+const submitBtn =document.getElementById('submit');
+
+let currentQuiz = 0;
+LoadQuez();
+function LoadQuez() {
+    DeselectAnwer()
+    const currentQuezData = quezData[currentQuiz];
+    questionEl.innerHTML= currentQuezData.question;
+    a_text.innerHTML= currentQuezData.a;
+    b_text.innerHTML= currentQuezData.b;
+    c_text.innerHTML= currentQuezData.c;
+    d_text.innerHTML= currentQuezData.d;
+   
+}
+
+let answer = undefined;
+
+function GetAnswer() {
+
+    answerEls.forEach((answerEl) => {
+        if (answerEl.checked) {
+            answer= answerEl.id;
+        }
+    });
+    return answer
+}
+
+
+
+
+function DeselectAnwer(){
+    answerEls.forEach((answerEl) => {
+       answerEl.checked = false;
+    });
+   
+}
+
+
+let score =0;
+submitBtn.addEventListener('click', () =>{
+    
+
+let answer =GetAnswer();
+console.log(answer);
+if (answer) {
+    if(answer === quezData[currentQuiz].correct ){
+        score++;
+    }
+
+       currentQuiz++; 
+    if (currentQuiz < quezData.length){
+        LoadQuez()
+    } else{
+       quiz.innerHTML=`<h2> you answered correctly at ${score}/${quezData.length} questions.</h2> <button onclick="location.reload()">Reload</button>`
+    }
+}
+
+
+})

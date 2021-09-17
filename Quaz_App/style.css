@@ -26,22 +26,35 @@ body{
 .quez-header{
     padding: 2rem;
 }
+ul li{
+    
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
 ul{
     list-style-type: none;
-    padding: 0;
+    padding:0;
 }
-button{
-    background-color:blue;
+button{ 
+    background-color:rgb(6, 66, 56);
     display: block;
     width:100%;
     border:none;
     color:white;
     padding:1rem;
+    border-radius: 5px;
 }
-button :hover{
-    background-color: aqua;
+button:hover{
+    background-color: rgb(10, 10, 10);
 }
 
 h2{
+    padding:1rem;
+    text-align: center;
     margin:0;
 }

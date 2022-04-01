@@ -1,0 +1,32 @@
+*{
+   margin : 0;
+   padding:0;
+}
+
+
+
+
+.Container{
+   margin: 100px;
+   text-align: center;
+   border: solid 1px;
+   padding: 4rem
+}
+
+
+.containerBox{
+ padding: 10px;
+}
+
+.hex{
+   margin-top: 2rem;
+   background-color: antiquewhite;
+   padding:1rem;
+}
+button{
+   margin-top: 3rem;
+   padding:10px;
+   background-color:rgb(94, 94, 100);
+   border: none;
+   
+}

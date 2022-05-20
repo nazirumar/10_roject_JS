@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Serif&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merriweather', Serif;
+   margin: 0;
+}
+
+
+.left{
+    width: 70%;
+}
+.right{
+    margin: 3rem;
+    width: 30%;
+    height: 30rem;
+}
+.navbar-main {
+   gap: 25px;
+}
+.search-bar input{
+    font-size: 13px;
+    height: 30px;
+    text-align: center;
+}
+.rounded-circle{
+    border-radius:100%;
+    border: 2px solid rgb(190, 41, 41);
+}
+
+.user-status{
+    border-radius: 1px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(138, 138, 138);
+    margin-bottom: 3rem;
+
+}
+.status{
+    padding: 10px;
+}
+
+.container-user{
+    margin-left: 40px;
+}
+.username{
+    font-weight: bold;
+  text-align: center;
+  font-size:13px;
+  color:  rgb(138, 138, 138);
+}
+.post-container{
+    border-radius: 1px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(138, 138, 138);
+  margin-bottom: 40px;
+    
+}
+
+.post-main{
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.post-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.right-container{
+    font-weight: bold;
+    gap: 10px;
+}
+.right-container-main{
+}
+.post-username{
+    margin-left: 10px;
+    font-weight: bold;
+}

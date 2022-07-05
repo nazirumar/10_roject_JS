@@ -10,8 +10,8 @@ body {
 .wrapper{
 position: relative;
 top:3rem;
-height: 500px;
-width: 500px;
+max-width: 400px;
+overflow: hidden;
 background-color: blueviolet;
 margin: auto;
 
@@ -32,9 +32,15 @@ margin: auto;
 
 }
 
+#person-img{
+  width: 100%;
+  object-fit: contain;
+
+}
+
 
 .image-slide{
-  overflow: hidden;
+
   background-color: aquamarine;
   border: 1px solid grey;
   border-radius: 10px;

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(230, 179, 11);
+}
+
+.wrapper {
+  position: relative;
+  top: 100px;
+  height: 300px;
+  width: 460px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.stp {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(23, 23, 223);
+}
+.watch {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.watch span {
+  align-items: baseline;
+}

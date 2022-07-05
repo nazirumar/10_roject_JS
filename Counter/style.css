@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(4, 53, 95);
+}
+
+.wrapper{
+  position: relative;
+  top: 100px;
+  background-color: blueviolet;
+  max-height: 300px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  border: 1px solid  rgb(17, 92, 158);;
+  box-shadow: 7px 1px 18px  rgb(21, 100, 170);
+}
+
+.counter-section{
+  position: relative;
+  top: 30px;
+border-radius: 3px;
+  margin: auto;
+  height: 100px;
+  background-color:white;
+  width: 400px;
+}
+
+.buttons{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.counter{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

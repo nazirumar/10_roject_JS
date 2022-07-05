@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(4, 53, 95);
+}
+.wrapper {
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  color: white;
+  background: #272639;
+  border-radius: 1rem;
+  margin: 100px auto;
+}
+
+.colorFicker {
+    border: 2px solid black;
+  height: 200px;
+  position: relative;
+  background-color: rgb(197, 188, 176);
+}
+
+.vertical-center {
+  margin: auto;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  margin-top: 20px;
+}
+
+.vertical-center #BtnColor {
+  padding: 10px;
+  background-color: #272639;
+  border-color: antiquewhite;
+  border-radius: 20px;
+  color: white;
+}
+
+.ColorName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: start;
+}
+
+#GColor{
+    width: 60px;
+    height: auto;
+   
+}
+
+.ColorName input[type=text]{
+border: none;
+padding: 3px;
+}

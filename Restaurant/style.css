@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  color: grey;
+  margin: 0;
+  height: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(253, 247, 247);
+}
+
+.header-sec{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  
+}
+.header-burger img{
+ border-radius: 100px;
+ padding-right: 20px;
+}
+.header-text{
+  
+  margin: 6px;
+padding: 5px;
+}
+.header-text h3{
+  text-align: start;
+  padding-left: 15px;
+  font-size: larger;
+}
+.header-text p{
+  color: grey;
+  text-align: start;
+  padding: 15px 15px 15px 15px;
+}
+.header-text .btn{
+  text-align: start;
+  margin-left: 15px;
+}
+
+.card-columns {
+  column-count: 0.3;
+  margin: 15px;
+}
+.grid-speciality{
+  
+  text-align: center;
+  margin: 15px;
+}
+
+.item a{
+  color: grey;
+  text-decoration: none;
+}
+
+
+.percentage{
+  position: relative;
+  bottom: 180px;
+left: 0.3rem;
+  width: 4rem;
+  margin-top: 5px;
+  margin-right: 10px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+}
+.star p{
+  font-weight: 300;
+font-size: 30px;
+color: rgb(233, 203, 32);
+}
+
+
+.food-gallery {
+  position: relative;
+  visibility: visible;
+  width: 100%;
+ 
+}
+
+.food_text {
+  display: none;
+  padding-top: 25px;
+}
+
+.food-gallery:hover img{
+  visibility: hidden;
+  
+}
+
+.food-gallery:hover .food_text{
+  position:absolute;
+  top:0;
+  left:0;
+	width: 100%;
+	height: 100%;
+	background: rgba(1, 0, 0, 0.2);
+	overflow: auto;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+	box-sizing: border-box;
+ 
+}
+
+.Staff-img img{
+  position: relative;
+  bottom: 4rem;
+  border-radius: 50%;
+  height:100px;
+  border: 5px solid white;
+  width: 100px;
+}
+.Staff{
+  border: 5px solid white;
+  color: white;
+  background-color: rgb(34, 39, 43);
+}
+
+.main-content{
+  position: relative;
+  bottom: 3rem;
+  color: white;
+}
+.main-content h6{
+  font-size: 40px;
+}
+.main-content p{
+  font-size:15px;
+}
+
+.staff-text p{
+ font-size: 20rem;
+}
